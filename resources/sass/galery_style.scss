@@ -1,0 +1,31 @@
+.galery-container{
+    margin: 50px 0 0;
+    padding: 10px;
+
+}
+
+.galery-container img{
+    width: calc(1920px/5);
+    height: calc(1080px/5);
+    object-fit: cover;
+}
+
+
+.container-img {
+    width: calc(1920px/5);
+    display: inline-block;
+    position: relative;
+}
+.container-img .text {
+    background: rgba(46, 31, 31, 0.5);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    color: rgba(255, 255, 255, 0.9);
+    width: 70%;
+}
+

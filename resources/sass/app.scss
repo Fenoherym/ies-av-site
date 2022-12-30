@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Style
+
+@import 'style';
+@import './font/css/font-awesome.min.css';
+@import './galery_style.scss';
+@import './card-hover.css';
+@import 'admission-card.scss';
+// @import './swiper.css';
+//AOS
+@import "~aos/dist/aos.css";
+
+//animate.css
+@import 'animate.css';
